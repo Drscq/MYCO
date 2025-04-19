@@ -1,0 +1,8 @@
+target
+db/
+test_sims/
+logs/
+bucket_usage_sims/
+matrix_simulation_results.txt
+*.csv
+
