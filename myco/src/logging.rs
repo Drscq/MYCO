@@ -169,7 +169,6 @@ fn log_bytes(message: &str) {
 pub fn calculate_and_append_averages(latency_filename: &str, bytes_filename: &str) {
     use std::fs::OpenOptions;
     use std::io::Write;
-    use std::collections::HashMap;
 
     {
         // Create logs directory if it doesn't exist
