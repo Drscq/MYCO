@@ -20,6 +20,7 @@ import os
 from typing import List, Optional
 
 class MycoRunner:
+    "Class to manage Myco client-server setup and execution"
     def __init__(self):
         self.processes: List[subprocess.Popen] = []
         self.server2_process: Optional[subprocess.Popen] = None
